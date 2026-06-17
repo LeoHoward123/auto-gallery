@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark background to make photos pop */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slide {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain; /* Keeps the whole image visible without distortion */
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; /* Smooth fade effect */
+}
+
+/* Class added by JS to trigger the fade out */
+.fade-out {
+    opacity: 0 !important;
+}
