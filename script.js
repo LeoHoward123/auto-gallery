@@ -1,12 +1,18 @@
 // Add your photo URLs or local file paths here
 const images = [
-    "images/photo1.jpg",
-    "images/photo2.jpg",
-    "images/photo3.jpg",
-    "images/photo4.jpg"
+    "images/DSCF9979.JPG",
+    "images/DSCF9932.JPG",
+    "images/DSCF9931.JPG",
+    "images/DSCF9928.JPG",
+    "images/DSCF9879.JPG",
+    "images/DSCF9875.JPG",
+    "images/DSCF9832.JPG",
+    "images/DSCF9823.JPG",
+    "images/DSCF9821.JPG",
+    "images/DSCF9818.JPG"
 ];
 
-const slideDuration = 3000; // Time per slide in milliseconds (3 seconds)
+const slideDuration = 6000; // Time per slide in milliseconds (6 seconds)
 let currentIndex = 0;
 const slideElement = document.getElementById('slide');
 
