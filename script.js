@@ -5,10 +5,17 @@ const images = [
     "images/DSCF9928.JPG",
     "images/DSCF9879.JPG",
     "images/DSCF9875.JPG",
+    "images/DSCF9858.JPG",
     "images/DSCF9832.JPG",
     "images/DSCF9823.JPG",
     "images/DSCF9821.JPG",
-    "images/DSCF9818.JPG"
+    "images/DSCF9818.JPG",
+    "images/DSCF9816.JPG",
+    "images/DSCF0050.JPG",
+    "images/DSCF0045.JPG",
+    "images/DSCF0034.JPG",
+    "images/DSCF0002.JPG",
+    "images/DSCF0001.JPG"
 ];
 
 const slideDuration = 4000; // 4 seconds per slide
